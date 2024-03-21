@@ -33,7 +33,7 @@ function App() {
                 </button>
               </div>
             </div>
-            <div className="flex text-gray-500   mt-[15%] items-center gap-1 w-14 duration-200 hover:animate-bounce  hover:text-[#FF8F1C] cursor-pointer">
+            <div className="flex text-gray-500   mt-[15%] items-center gap-1 w-14 duration-200 hover:text-[#FF8F1C] cursor-pointer">
               <a href="#about">
                 {" "}
                 <i className="bi font-bold bi-arrow-down-circle"> </i>
@@ -109,9 +109,9 @@ function App() {
                 <Skills />
               </div>
             </div>
-            <div className="flex text-gray-500 mt-[15%] items-center gap-1 w-14 duration-200 hover:text-[#FF8F1C] cursor-pointer">
-              <i className="bi font-bold bi-arrow-down-circle"> </i>
+            <div className="flex text-gray-500 mt-[15%] items-center gap-1 w-20 duration-200 hover:text-[#FF8F1C] cursor-pointer">
               <a href="#projects">
+                <i className="bi font-bold bi-arrow-down-circle"> </i>
                 <span className="text-xs font-medium"> Projects</span>
               </a>
             </div>
