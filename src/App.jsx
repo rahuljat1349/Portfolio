@@ -12,7 +12,7 @@ function App() {
             </div>
             <div className="flex flex-col gap-4 md:gap-8 text-sm justify-center">
               <div className="text-[#FF8F1C] py-6 font-semibold">
-                MERN-STACK DEVELOPER
+                Jr. MERN-STACK DEVELOPER
               </div>
               <div id="element" className="lg:text-4xl text-2xl  font-bold">
                 Hello, my name is Rahul Dudi.
@@ -22,6 +22,7 @@ function App() {
                 continuous learning and growth in the ever-evolving field of Web
                 Development.
               </div>
+
               <div className="w-full flex text-xs font-semibold gap-2">
                 <button className="py-2 hover:scale-110 duration-200 px-5 hover:bg-transparent hover:border-black border-[#FDC435] border-[1px] border-solid bg-[#FF8F1C] rounded-md">
                   Projects
@@ -78,7 +79,7 @@ function App() {
             <div className="flex  flex-col gap-2 text-xs sm:text-sm justify-center">
               <div className="text-[#FF8F1C] font-semibold">ABOUT ME</div>
 
-              <div className="text-gray-500 leading-9 font-medium">
+              <div className="text-gray-500 leading-7 font-medium">
                 <p>
                   <strong>Education :</strong> BCA With IGNOU (2023 - Pursuing)
                 </p>
@@ -93,15 +94,26 @@ function App() {
                   <strong>Mobile No. : </strong> (+91) 8233841349
                 </p>
               </div>
+              <div className="text-[#FF8F1C] font-semibold">WORK HISTORY</div>
+
+              <div className="text-gray-500 leading-6 font-medium">
+                <p>
+                  <strong>Full Stack Developer Intern</strong> at{" "}
+                  <strong>MS INFOTECH </strong>
+                  <p>(FEB 2024 - current)</p>
+                </p>
+              </div>
               <div className="text-[#FF8F1C] font-semibold">SKILLS</div>
 
               <div>
                 <Skills />
               </div>
             </div>
-            <div className="flex text-gray-500 mt-[15%] items-center gap-1 w-14 duration-200 hover:animate-bounce  hover:text-[#FDC435] cursor-pointer">
+            <div className="flex text-gray-500 mt-[15%] items-center gap-1 w-14 duration-200 hover:text-[#FF8F1C] cursor-pointer">
               <i className="bi font-bold bi-arrow-down-circle"> </i>
-              <span className="text-xs font-medium"> Projects</span>
+              <a href="#projects">
+                <span className="text-xs font-medium"> Projects</span>
+              </a>
             </div>
           </div>
           <div className="flex items-start flex-col justify-between">
@@ -128,12 +140,67 @@ function App() {
       </div>
 
       {/* third page - [projects] */}
-      <div
-        id="about"
-        className=" w-full h-screen flex justify-center items-center"
-      >
-        <div className="w-[70%] flex py-8 flex-col lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
-          hello
+      <div id="projects" className=" w-full  flex justify-center items-center">
+        <div className="lg:w-[70%] flex lg:px-4 py-8 flex-col lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
+          <div className="px-4 lg:pl-20 flex flex-col gap-4">
+            <div className="text-[#FF8F1C] mb-2 font-semibold">PROJECTS</div>
+            <div className="w-full text-gray-500 leading-7 font-medium">
+              <p>
+                ⦿ <strong>X-Mall</strong> (Full Stack E-Commerce Web App)
+              </p>
+              <div className="px-6">
+                <p>
+                  The X-Mall is a full-stack web application designed to
+                  simulate an online shopping experience. The app includes
+                  functionality for user registration, login, and
+                  authentication. It also incorporates product search and
+                  filtering options to enhance the shopping experience. On the
+                  backend, the app utilizes Node.js and Express.js for
+                  server-side logic and MongoDB for database management.
+                  React.js is used for the frontend, providing a responsive and
+                  dynamic user interface.
+                </p>
+                <p>
+                  <strong>Project Link</strong> -{" "}
+                  <a
+                    className="text-blue-600 hover:text-blue-950 underline duration-200"
+                    target="_blank"
+                    href=" https://x-mall-react.vercel.app/"
+                  >
+                    {" "}
+                    https://x-mall-react.vercel.app/
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="w-full text-gray-500 leading-7 font-medium">
+              <p>
+                ⦿ <strong>iNoteBook</strong> (Full Stack Note Taking App)
+              </p>
+              <div className="px-6">
+                <p>
+                  The NoteBook project is a web-based note-taking application
+                  built using React.js for the frontend and MongoDB for data
+                  storage. Users can register, log in, and create, edit, and
+                  delete their notes. The application provides a clean and
+                  intuitive interface for managing personal notes efficiently.
+                  Additionally, it incorporates authentication and authorization
+                  features to ensure user privacy and security.
+                </p>
+                <p>
+                  <strong>Project Link</strong> -{" "}
+                  <a
+                    className="text-blue-600 hover:text-blue-950 underline duration-200"
+                    target="_blank"
+                    href="https://i-note-book-lime.vercel.app/"
+                  >
+                    {" "}
+                    https://i-note-book-lime.vercel.app/{" "}
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
