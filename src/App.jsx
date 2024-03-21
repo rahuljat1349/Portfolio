@@ -240,7 +240,9 @@ function App() {
             </div>
           </div>
           <div className="flex  lg:w-[50%]  items-center rounded-lg  bg-slate-200 w-full p-4 flex-col justify-between">
-            <h1 className="h-full flex items-center">Send a Massage</h1>
+            <h1 className="h-full font-semibold text-lg text-[#FF8F1C] flex items-center">
+              Send a Massage
+            </h1>
 
             <form className=" gap-2 w-full p-4 flex flex-col" a>
               <input
