@@ -9,3 +9,6 @@
 .clippy {
   clip-path: circle(52.4% at 69% 22%);
 }
+.body {
+  scroll-behavior: smooth;
+}

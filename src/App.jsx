@@ -1,9 +1,10 @@
 import Typed from "typed.js";
 import Skills from "./Skills";
+import Contacts from "./Contacts";
 function App() {
   return (
     <>
-      {/* Upper card [PAGE - 1] */}
+      {/* Upper card */}
       <div className="w-full  flex justify-center items-center">
         <div className="sm:w-[70%] flex pb-8 flex-col-reverse lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#F9FAFF]">
           <div className="lg:w-[45%] pl-8 pr-2 lg:pl-20 ">
@@ -72,7 +73,7 @@ function App() {
         </div>
       </div>
 
-      {/* Second Card [PAGE -2] */}
+      {/* Second Card [about] */}
       <div id="about" className=" w-full flex justify-center items-center">
         <div className="sm:w-[70%] flex px-4 py-8 flex-col-reverse lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
           <div className="lg:w-[50%] px-4 lg:pl-20 border-gray-200 border-solid lg:border-r-[1px]">
@@ -139,7 +140,7 @@ function App() {
         </div>
       </div>
 
-      {/* third page - [projects] */}
+      {/* third Card - [projects] */}
       <div id="projects" className=" w-full  flex justify-center items-center">
         <div className="lg:w-[70%] flex lg:px-4 py-8 flex-col lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
           <div className="px-4 lg:pl-20 flex flex-col gap-4">
@@ -200,9 +201,68 @@ function App() {
                 </p>
               </div>
             </div>
+            <div className="flex text-gray-500 mt-[5%] items-center gap-1 w-20 duration-200 hover:text-[#FF8F1C] cursor-pointer">
+              <a href="#contacts">
+                <i className="bi font-bold bi-arrow-down-circle"> </i>
+                <span className="text-xs font-medium"> Contacts</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
+      {/* fourth Card [PAGE -2] */}
+      <div
+        id="contacts"
+        className=" w-full  text-gray-500 font-medium flex justify-center items-center"
+      >
+        <div className="lg:w-[70%] flex px-4 py-8 flex-col-reverse lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
+          <div className="lg:w-[50%] px-4 lg:pl-20 ">
+            <div className="flex  flex-col gap-2 text-xs sm:text-sm justify-center">
+              <div className="text-[#FF8F1C] font-semibold">CONTACTS</div>
+
+              <div>
+                <Contacts />
+              </div>
+              <div className="text-[#FF8F1C] font-semibold">RESUME</div>
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1wlt9FopGb7YHe8euFL49M4rTMpYEQX2p/view?usp=sharing"
+                className="bg-slate-200 hover:bg-slate-300 duration-200 rounded-md w-full flex justify-center gap-2 p-2"
+              >
+                <p>Rahul-Dudi-1.pdf</p>
+                <i className="bi bi-box-arrow-up-right"></i>{" "}
+              </a>
+            </div>
+          </div>
+          <div className="flex  lg:w-[50%]  items-center rounded-lg  bg-slate-200 w-full p-4 flex-col justify-between">
+            <h1 className="h-full flex items-center">Send a Massage</h1>
+
+            <form className=" gap-2 w-full p-4 flex flex-col" a>
+              <input
+                placeholder="john@mail.com"
+                className="bg-slate-50 focus:border-slate-300 border-2 bordersol p-2 text-center outline-none rounded-md"
+                type="email"
+              />
+              <textarea
+                placeholder="Unfortunately, it is not wokinking right now."
+                className="bg-slate-50 focus:border-slate-300 border-2 bordersol p-2 text-center outline-none rounded-md"
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+              <button className="bg-blue-500 hover:bg-blue-600 active:bg-[#FF8F1C] duration-200 p-2 text-center text-white outline-none rounded-md">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <h1 className="text-center text-slate-600 p-2">
+        {" "}
+        Designed and Developed by <strong>Rahul Dudi</strong>.
+      </h1>
     </>
   );
 }
