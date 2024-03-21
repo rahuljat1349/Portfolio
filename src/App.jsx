@@ -216,7 +216,7 @@ function App() {
         id="contacts"
         className=" w-full  text-gray-500 font-medium flex justify-center items-center"
       >
-        <div className="lg:w-[70%] flex px-4 py-8 flex-col-reverse lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
+        <div className="lg:w-[70%] flex px-4 py-8 flex-col gap-4 lg:gap-2 lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
           <div className="lg:w-[50%] px-4 lg:pl-20 ">
             <div className="flex  flex-col gap-2 text-xs sm:text-sm justify-center">
               <div className="text-[#FF8F1C] font-semibold">CONTACTS</div>
@@ -228,10 +228,14 @@ function App() {
               <a
                 target="_blank"
                 href="https://drive.google.com/file/d/1wlt9FopGb7YHe8euFL49M4rTMpYEQX2p/view?usp=sharing"
-                className="bg-slate-200 hover:bg-slate-300 duration-200 rounded-md w-full flex justify-center gap-2 p-2"
+                className="bg-slate-200 items-center hover:bg-slate-300 duration-200 rounded-md w-full flex justify-center gap-2 p-2"
               >
                 <p>Rahul-Dudi-1.pdf</p>
-                <i className="bi bi-box-arrow-up-right"></i>{" "}
+                <img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/?size=256&id=ya4CrqO7PgnY&format=png"
+                />{" "}
               </a>
             </div>
           </div>
