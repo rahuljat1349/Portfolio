@@ -25,13 +25,20 @@ function App() {
               </div>
 
               <div className="w-full flex text-xs font-semibold gap-2">
-                <button className="py-2 hover:scale-110 duration-200 px-5 hover:bg-transparent hover:border-black border-[#FDC435] border-[1px] border-solid bg-[#FF8F1C] rounded-md">
+                <a
+                  href="#projects"
+                  className="py-2 hover:scale-110 duration-200 px-5 hover:bg-transparent hover:border-black border-[#FDC435] border-[1px] border-solid bg-[#FF8F1C] rounded-md"
+                >
                   Projects
-                </button>
-                <button className="py-2 hover:scale-110 px-5 duration-200 hover:bg-[#FF8F1C] hover:border-[#FF8F1C] border-black border-[1px] border-solid rounded-md">
+                </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/rahul-dudi-80ba20193"
+                  className="py-2 hover:scale-110 px-5 duration-200 hover:bg-[#FF8F1C] hover:border-[#FF8F1C] border-black border-[1px] border-solid rounded-md"
+                >
                   {" "}
                   LinkedIn
-                </button>
+                </a>
               </div>
             </div>
             <div className="flex text-gray-500   mt-[15%] items-center gap-1 w-14 duration-200 hover:text-[#FF8F1C] cursor-pointer">
