@@ -108,7 +108,7 @@ function App() {
                 <p>
                   <strong>Full Stack Developer Intern</strong> at{" "}
                   <strong>MS INFOTECH </strong>
-                  <p>(FEB 2024 - current)</p>
+                  <p>(FEB 2024 - APRIL 2024)</p>
                 </p>
               </div>
               <div className="text-[#FF8F1C] font-semibold">SKILLS</div>
