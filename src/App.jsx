@@ -277,12 +277,14 @@ function App() {
         {" "}
         Designed and Developed by <strong>Rahul Dudi</strong>.
       </h1> */}
-      <h1 className="text-center text-slate-600 p-2">
-        {" "}
-        Under Construction 🚧: My portfolio is in the works! Crafting new
-        projects and refining my skills. Stay tuned for the full showcase—coming
-        soon!{" "}
-      </h1>
+      <div className="h-screen w-full">
+        <h1 className="text-center text-slate-900 p-2">
+          {" "}
+          Under Construction 🚧: My portfolio is in the works! Crafting new
+          projects and refining my skills. <br /> Stay tuned for the full
+          showcase—coming soon!{" "}
+        </h1>
+      </div>
     </>
   );
 }
