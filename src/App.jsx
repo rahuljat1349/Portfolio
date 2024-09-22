@@ -279,10 +279,10 @@ function App() {
       </h1> */}
       <div className="h-screen w-full">
         <h1 className="text-center text-slate-900 p-2">
-          {" "}
+          
           Under Construction 🚧: My portfolio is in the works! Crafting new
           projects and refining my skills. <br /> Stay tuned for the full
-          showcase—coming soon!{" "}
+          showcase—coming soon!
         </h1>
       </div>
     </>
