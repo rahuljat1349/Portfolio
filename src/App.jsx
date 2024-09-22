@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       {/* Upper card */}
-      <div className="w-full  flex justify-center items-center">
+      {/* <div className="w-full  flex justify-center items-center">
         <div className="sm:w-[70%] flex pb-8 flex-col-reverse lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#F9FAFF]">
           <div className="lg:w-[45%] pl-8 pr-2 lg:pl-20 ">
             <div className="hidden lg:flex text-sm font-medium font-mono py-2">
@@ -78,10 +78,10 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Second Card [about] */}
-      <div id="about" className=" w-full flex justify-center items-center">
+      {/* <div id="about" className=" w-full flex justify-center items-center">
         <div className="sm:w-[70%] flex px-4 py-8 flex-col-reverse lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
           <div className="lg:w-[50%] px-4 lg:pl-20 border-gray-200 border-solid lg:border-r-[1px]">
             <div className="flex  flex-col gap-2 text-xs sm:text-sm justify-center">
@@ -145,10 +145,10 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* third Card - [projects] */}
-      <div id="projects" className=" w-full  flex justify-center items-center">
+      {/* <div id="projects" className=" w-full  flex justify-center items-center">
         <div className="lg:w-[70%] flex lg:px-4 py-8 flex-col lg:flex-row m-8 card rounded-xl overflow-hidden bg-[#FFF]">
           <div className="px-4 lg:pl-20 flex flex-col gap-4">
             <div className="text-[#FF8F1C] mb-2 font-semibold">PROJECTS</div>
@@ -216,10 +216,10 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* fourth Card [PAGE -2] */}
-      <div
+      {/* <div
         id="contacts"
         className=" w-full  text-gray-500 font-medium flex justify-center items-center"
       >
@@ -271,10 +271,17 @@ function App() {
             </form>
           </div>
         </div>
-      </div>
-      <h1 className="text-center text-slate-600 p-2">
+      </div> */}
+
+      {/* <h1 className="text-center text-slate-600 p-2">
         {" "}
         Designed and Developed by <strong>Rahul Dudi</strong>.
+      </h1> */}
+      <h1 className="text-center text-slate-600 p-2">
+        {" "}
+        Under Construction 🚧: My portfolio is in the works! Crafting new
+        projects and refining my skills. Stay tuned for the full showcase—coming
+        soon!{" "}
       </h1>
     </>
   );
