@@ -1,32 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.card {
-  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
-    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
-.clippy {
-  clip-path: circle(52.4% at 69% 22%);
-}
-body {
-  scroll-behavior: smooth;
-  background: linear-gradient(
-    90deg,
-    rgb(104, 163, 197) 0%,
-    rgb(156, 155, 86) 70%
-  );
-  animation: gradient 5s ease infinite;
-  background-size: 400% 400%;
-}
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+
