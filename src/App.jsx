@@ -119,13 +119,13 @@ const PortfolioPage = () => {
                 title: "X-Mall (E-Commerce App)",
                 description:
                   "An e-commerce application built using MERN stack, providing a seamless shopping experience.",
-                link: "https://portfolio-phi-olive-93.vercel.app/",
+                link: "https://x-mall-react.vercel.app",
               },
               {
                 title: "iNoteBook (Note-Taking App)",
                 description:
                   "A note-taking application with a clean interface and robust functionality for easy organization.",
-                link: "https://portfolio-phi-olive-93.vercel.app/",
+                link: "i-note-book1.vercel.app/",
               },
               {
                 title: "Flare (Twitter-like App)",
