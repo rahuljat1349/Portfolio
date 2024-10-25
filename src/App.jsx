@@ -125,7 +125,7 @@ const PortfolioPage = () => {
                 title: "iNoteBook (Note-Taking App)",
                 description:
                   "A note-taking application with a clean interface and robust functionality for easy organization.",
-                link: "i-note-book1.vercel.app/",
+                link: "https://i-note-book1.vercel.app/",
               },
               {
                 title: "Flare (Twitter-like App)",
