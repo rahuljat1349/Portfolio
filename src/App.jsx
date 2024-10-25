@@ -18,7 +18,6 @@ const PortfolioPage = () => {
           darkMode ? "bg-indigo-800" : "bg-indigo-600"
         } p-6 text-center`}
       >
-        
         <div className="flex items-center justify-around max-w-4xl mx-auto">
           <div>
             <h1 className="text-3xl font-bold">Rahul Dudi</h1>
@@ -212,7 +211,7 @@ const PortfolioPage = () => {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/Rahu-dudi"
+            href="https://www.linkedin.com/in/rahul-dudi-25432831b"
             className="text-white hover:text-gray-300"
           >
             LinkedIn
