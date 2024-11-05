@@ -133,7 +133,7 @@ const PortfolioPage = () => {
                 link: "https://i-note-book1.vercel.app/",
               },
               {
-                title: "Flare (Twitter-like App)",
+                title: "Flare (Social Media app)",
                 description:
                   "A social media app currently under development, focused on clean design and user engagement.",
               },
