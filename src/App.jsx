@@ -47,9 +47,14 @@ const PortfolioPage = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">About Me</h2>
           <p>
-            I'm a passionate frontend developer specializing in creating
-            stunning and user-friendly websites and applications using HTML,
-            CSS, JavaScript, and modern frameworks like Next.js and Prisma.
+            I'm a full-stack developer who loves building smooth, user-friendly
+            web applications. On the frontend, I bring designs to life with
+            HTML, CSS, and JavaScript, using tools like React and Next.js to
+            create responsive, engaging interfaces. <br />For the backend, I work with
+            Node.js, Express, and Prisma, connecting databases like PostgreSQL
+            and MongoDB to ensure everything runs smoothly and securely. I'm all
+            about writing clean code and keeping up with the latest tech trends
+            to deliver solid, modern solutions that just work.
           </p>
         </section>
 
