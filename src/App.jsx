@@ -50,11 +50,12 @@ const PortfolioPage = () => {
             I'm a full-stack developer who loves building smooth, user-friendly
             web applications. On the frontend, I bring designs to life with
             HTML, CSS, and JavaScript, using tools like React and Next.js to
-            create responsive, engaging interfaces. <br />For the backend, I work with
-            Node.js, Express, and Prisma, connecting databases like PostgreSQL
-            and MongoDB to ensure everything runs smoothly and securely. I'm all
-            about writing clean code and keeping up with the latest tech trends
-            to deliver solid, modern solutions that just work.
+            create responsive, engaging interfaces. <br />
+            For the backend, I work with Node.js, Express, and Prisma,
+            connecting databases like PostgreSQL and MongoDB to ensure
+            everything runs smoothly and securely. I'm all about writing clean
+            code and keeping up with the latest tech trends to deliver solid,
+            modern solutions that just work.
           </p>
         </section>
 
@@ -133,14 +134,15 @@ const PortfolioPage = () => {
                 link: "https://i-note-book1.vercel.app/",
               },
               {
+                title: "HostIn (Event Management App)",
+                description:
+                  "A full-stack event management application with user-friendly features for event planning and coordination.",
+                link: "https://host-in.vercel.app/",
+              },
+              {
                 title: "Flare (Social Media app)",
                 description:
                   "A social media app currently under development, focused on clean design and user engagement.",
-              },
-              {
-                title: "HopIn (Event Management App)",
-                description:
-                  "A full-stack event management application with user-friendly features for event planning and coordination.",
               },
             ].map((project) => (
               <div
