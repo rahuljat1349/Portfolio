@@ -9,8 +9,8 @@ const PortfolioPage = () => {
   return (
     <div
       className={`${
-        darkMode ? "bg-gray-900 text-gray-100" : "bg-gray-50 text-gray-800"
-      } min-h-screen`}
+        darkMode ? "bg-gray-900 " : "bg-gray-50 "
+      }  min-h-screen text-gray-100`}
     >
       {/* Header */}
       <header
@@ -42,7 +42,11 @@ const PortfolioPage = () => {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto py-8 px-4">
+      <main
+        className={`${
+          darkMode ? " text-gray-100" : " text-gray-800"
+        }  max-w-4xl mx-auto py-8 px-4`}
+      >
         {/* About Section */}
         <section className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">About Me</h2>
