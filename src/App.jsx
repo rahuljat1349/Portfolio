@@ -48,20 +48,25 @@ const PortfolioPage = () => {
         }  max-w-4xl mx-auto py-8 px-4`}
       >
         {/* About Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">About Me</h2>
-          <p>
-            I'm a full-stack developer who loves building smooth, user-friendly
-            web applications. On the frontend, I bring designs to life with
-            HTML, CSS, and JavaScript, using tools like React and Next.js to
-            create responsive, engaging interfaces. <br />
-            For the backend, I work with Node.js, Express, and Prisma,
-            connecting databases like PostgreSQL and MongoDB to ensure
-            everything runs smoothly and securely. I'm all about writing clean
-            code and keeping up with the latest tech trends to deliver solid,
-            modern solutions that just work.
-          </p>
-        </section>
+        <div className="flex w-full py-4 gap-3 justify-center items-center">
+          <div className="w-[25%]">
+            <img className="w-full rounded-lg h-full" src="/Profile.PNG" alt="" srcset="" />
+          </div>
+          <section className="mb-12 w-[70%]">
+            <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+            <p>
+              I'm a full-stack developer who loves building smooth,
+              user-friendly web applications. On the frontend, I bring designs
+              to life with HTML, CSS, and JavaScript, using tools like React and
+              Next.js to create responsive, engaging interfaces. <br />
+              For the backend, I work with Node.js, Express, and Prisma,
+              connecting databases like PostgreSQL and MongoDB to ensure
+              everything runs smoothly and securely. I'm all about writing clean
+              code and keeping up with the latest tech trends to deliver solid,
+              modern solutions that just work.
+            </p>
+          </section>{" "}
+        </div>
 
         {/* Skills Section */}
         <section className="mb-12">
@@ -205,6 +210,62 @@ const PortfolioPage = () => {
             </div>
           </div>
         </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
+          <p className="mb-4">
+            Interested in working together? Feel free to reach out via the
+            following platforms:
+          </p>
+          <div className="flex gap-4">
+            <a
+              href="https://www.linkedin.com/in/webdevrj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${
+                darkMode
+                  ? "bg-indigo-900 text-indigo-300"
+                  : "bg-indigo-200 text-indigo-800"
+              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
+            >
+              <span> LinkedIn</span>
+            </a>
+            <a
+              href="https://instagram.com/webdevrj"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${
+                darkMode
+                  ? "bg-pink-700 text-pink-200"
+                  : "bg-pink-200 text-pink-800"
+              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
+            >
+              <span>Instagram</span>
+            </a>
+            <a
+              href="https://wa.me/918233841349"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`${
+                darkMode
+                  ? "bg-green-800 text-green-300"
+                  : "bg-green-200 text-green-800"
+              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
+            >
+              <span>WhatsApp</span>
+            </a>
+            <a
+              href="mailto:rahuldudi1349@gmail.com"
+              className={`${
+                darkMode
+                  ? "bg-gray-700 text-gray-300"
+                  : "bg-gray-200 text-gray-800"
+              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
+            >
+              <span>Email</span>
+            </a>
+          </div>
+        </section>
       </main>
 
       {/* Footer */}
@@ -213,7 +274,7 @@ const PortfolioPage = () => {
           darkMode ? "bg-indigo-800" : "bg-indigo-600"
         } text-center p-6`}
       >
-        <p>&copy; 2024 Rahul Dudi</p>
+        <p>&copy; 2025 Rahul Dudi</p>
         <div className="mt-2 space-x-4">
           <a
             href="https://github.com/rahuljat1349"
