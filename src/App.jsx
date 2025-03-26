@@ -50,20 +50,28 @@ const PortfolioPage = () => {
         {/* About Section */}
         <div className="flex w-full py-4 gap-3 justify-center items-center">
           <div className="w-[25%]">
-            <img className="w-full rounded-lg h-full" src="/Profile.PNG" alt="" srcset="" />
+            <img
+              className="w-full rounded-lg h-full"
+              src="/Profile.PNG"
+              alt=""
+              srcset=""
+            />
           </div>
           <section className="mb-12 w-[70%]">
             <h2 className="text-2xl font-semibold mb-4">About Me</h2>
             <p>
-              I'm a full-stack developer who loves building smooth,
-              user-friendly web applications. On the frontend, I bring designs
-              to life with HTML, CSS, and JavaScript, using tools like React and
-              Next.js to create responsive, engaging interfaces. <br />
-              For the backend, I work with Node.js, Express, and Prisma,
-              connecting databases like PostgreSQL and MongoDB to ensure
-              everything runs smoothly and securely. I'm all about writing clean
-              code and keeping up with the latest tech trends to deliver solid,
-              modern solutions that just work.
+              I'm a full-stack developer who loves building web applications
+              that are fast, user-friendly, and reliable. I work with React.js,
+              Next.js, and TypeScript to create smooth and interactive
+              interfaces. On the backend, I use Express, LangChain, and
+              Mongoose, along with PostgreSQL and Prisma for managing databases
+              efficiently.
+              <br /> I also have experience with Redux Toolkit, Recoil,
+              and authentication tools like NextAuth. I enjoy working with Git,
+              GitHub, Docker, and AWS (basics) to keep projects well-organized
+              and scalable. I also use Python for various backend and automation
+              tasks. I'm always learning new technologies and improving my
+              skills to build modern, high-quality solutions.
             </p>
           </section>{" "}
         </div>
@@ -73,43 +81,28 @@ const PortfolioPage = () => {
           <h2 className="text-2xl font-semibold mb-4">Skills</h2>
           <ul className="flex flex-wrap gap-2">
             {[
-              "HTML",
-              "CSS",
-              "Tailwind CSS",
               "React.js",
               "Next.js",
-              "JavaScript",
+
               "TypeScript",
-              "C and C++",
-              "Node.js",
-              "Express.js",
-              "Hono",
-              "MongoDB",
-              "mongoose",
+              "LangChain",
+
+              "Express",
+
+              "Mongoose",
+
               "PostgreSQL",
               "Prisma",
-              "Redis",
+
               "Redux Toolkit",
               "Recoil",
               "Git",
               "GitHub",
               "Docker",
               "AWS (basics)",
-              "Kubernetes",
-              "Redis",
-              "pubsubs",
-              "Queues",
-              "webSockets",
-              "webRTC",
-              "Database pooling",
-              "Monorepos",
-              "Turborepo",
+
               "NextAuth",
-              "CI/CD Pipeline",
-              "OpenAPI Specs",
-              "Testing",
-              "Monitoring",
-              "Logging",
+              "Python",
             ].map((skill) => (
               <li
                 key={skill}
@@ -153,6 +146,12 @@ const PortfolioPage = () => {
                 description:
                   "A social media app currently under development, focused on clean design and user engagement.",
               },
+              {
+                title: "AceChat (A personalized chatbot/AI assistant)",
+                description:
+                  "A powerful AI assistant designed to provide personalized conversational experiences.",
+                link: "https://acechat.vercel.app",
+              },
             ].map((project) => (
               <div
                 key={project.title}
@@ -180,94 +179,7 @@ const PortfolioPage = () => {
             ))}
           </div>
         </section>
-
-        {/* Education Section */}
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Education</h2>
-          <div className="space-y-4">
-            <div
-              className={`${
-                darkMode
-                  ? "bg-gray-800 text-gray-100"
-                  : "bg-white text-gray-900"
-              } p-4 border rounded-md shadow-md`}
-            >
-              <h3 className="text-xl font-bold">
-                Bachelor of Computer Applications - IGNOU, Delhi
-              </h3>
-              <p className="text-gray-600">Ongoing</p>
-            </div>
-            <div
-              className={`${
-                darkMode
-                  ? "bg-gray-800 text-gray-100"
-                  : "bg-white text-gray-900"
-              } p-4 border rounded-md shadow-md`}
-            >
-              <h3 className="text-xl font-bold">
-                Senior Secondary - RBSE at GSSS, Khora Shyamdas, Jaipur
-              </h3>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Contact Me</h2>
-          <p className="mb-4">
-            Interested in working together? Feel free to reach out via the
-            following platforms:
-          </p>
-          <div className="flex gap-4">
-            <a
-              href="https://www.linkedin.com/in/webdevrj"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${
-                darkMode
-                  ? "bg-indigo-900 text-indigo-300"
-                  : "bg-indigo-200 text-indigo-800"
-              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
-            >
-              <span> LinkedIn</span>
-            </a>
-            <a
-              href="https://instagram.com/webdevrj"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${
-                darkMode
-                  ? "bg-pink-700 text-pink-200"
-                  : "bg-pink-200 text-pink-800"
-              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
-            >
-              <span>Instagram</span>
-            </a>
-            <a
-              href="https://wa.me/918233841349"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`${
-                darkMode
-                  ? "bg-green-800 text-green-300"
-                  : "bg-green-200 text-green-800"
-              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
-            >
-              <span>WhatsApp</span>
-            </a>
-            <a
-              href="mailto:rahuldudi1349@gmail.com"
-              className={`${
-                darkMode
-                  ? "bg-gray-700 text-gray-300"
-                  : "bg-gray-200 text-gray-800"
-              } px-4 py-2 rounded-md font-semibold flex items-center gap-2`}
-            >
-              <span>Email</span>
-            </a>
-          </div>
-        </section>
       </main>
-
       {/* Footer */}
       <footer
         className={`${
@@ -283,7 +195,7 @@ const PortfolioPage = () => {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/rahul-dudi-25432831b"
+            href="https://www.linkedin.com/in/rahuldudi"
             className="text-white hover:text-gray-300"
           >
             LinkedIn
